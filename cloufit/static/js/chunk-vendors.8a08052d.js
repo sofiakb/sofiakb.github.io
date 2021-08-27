@@ -86323,7 +86323,7 @@ $({ target: 'Array', proto: true, forced: ES3_STRINGS || !STRICT_METHOD }, {
 __webpack_require__.d(__webpack_exports__, "a", function() { return /* reexport */ Stack; });
 __webpack_require__.d(__webpack_exports__, "b", function() { return /* reexport */ StackItem; });
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"f556d890-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/vue-stack-grid/src/Stack.vue?vue&type=template&id=16805b83&scoped=true&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"5d7194aa-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/vue-stack-grid/src/Stack.vue?vue&type=template&id=16805b83&scoped=true&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{directives:[{name:"images-loaded",rawName:"v-images-loaded:on.progress",value:(_vm.imagesLoaded),expression:"imagesLoaded",arg:"on",modifiers:{"progress":true}}],ref:"container",staticClass:"vsg-container"},[_vm._t("default")],2)}
 var staticRenderFns = []
 
@@ -86486,7 +86486,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 )
 
 /* harmony default export */ var Stack = (component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"f556d890-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/vue-stack-grid/src/StackItem.vue?vue&type=template&id=52060b20&scoped=true&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"5d7194aa-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/vue-stack-grid/src/StackItem.vue?vue&type=template&id=52060b20&scoped=true&
 var StackItemvue_type_template_id_52060b20_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"vsg-stack-item"},[_vm._t("default")],2)}
 var StackItemvue_type_template_id_52060b20_scoped_true_staticRenderFns = []
 
