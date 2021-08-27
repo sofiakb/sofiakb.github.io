@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "616a979f52df81d93fbf0ae34341f918",
+    "revision": "8ca59a799c7cd6cc73a99167320ae26c",
     "url": "/cloufit/index.html"
   },
   {
@@ -12,15 +12,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cloufit/robots.txt"
   },
   {
-    "revision": "fc3a94534fb067caed90",
-    "url": "/cloufit/static/css/app.fa31fc12.css"
+    "revision": "cccd6bbc2c4b8c23ea17",
+    "url": "/cloufit/static/css/app.3c61fd47.css"
   },
   {
     "revision": "d41d8cd98f00b204e9800998ecf8427e",
     "url": "/cloufit/static/css/app.min.css"
   },
   {
-    "revision": "832ac87cc51a4401f5c5",
+    "revision": "bca29cbc28102054ea25",
     "url": "/cloufit/static/css/chunk-vendors.a42f16f5.css"
   },
   {
@@ -412,12 +412,48 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cloufit/static/img/unplugged.d46444fa.jpg"
   },
   {
-    "revision": "fc3a94534fb067caed90",
-    "url": "/cloufit/static/js/app.e04e9448.js"
+    "revision": "cccd6bbc2c4b8c23ea17",
+    "url": "/cloufit/static/js/app.70506940.js"
   },
   {
-    "revision": "832ac87cc51a4401f5c5",
-    "url": "/cloufit/static/js/chunk-vendors.8a08052d.js"
+    "revision": "bca29cbc28102054ea25",
+    "url": "/cloufit/static/js/chunk-vendors.3d48a8e3.js"
+  },
+  {
+    "revision": "a50ab104690c1b68b71e62456e89ad02",
+    "url": "/cloufit/static/js/jsqr/88507C13C1223C3F2A335CFAAA4EF584.cache.js"
+  },
+  {
+    "revision": "3109bc6a3f50631c3b0e504bab58a361",
+    "url": "/cloufit/static/js/jsqr/9C51964BB0BBCC41BB79120ED90449EA.cache.js"
+  },
+  {
+    "revision": "07cc1d3fbd693268647d0948e1b2eacc",
+    "url": "/cloufit/static/js/jsqr/B566A15506556F952CAD2B7994FFA824.cache.js"
+  },
+  {
+    "revision": "6cd7c2e3f57a82062279016dfcd979dc",
+    "url": "/cloufit/static/js/jsqr/D9940D84355A4C8E89013B8814821244.cache.js"
+  },
+  {
+    "revision": "590eac9fc3b470268d35045e86f2a463",
+    "url": "/cloufit/static/js/jsqr/F4C3969B01AFD421179360B47BCEA2E0.cache.js"
+  },
+  {
+    "revision": "6d22e4f2d2057c6e8d6fab098e76e80f",
+    "url": "/cloufit/static/js/jsqr/clear.cache.gif"
+  },
+  {
+    "revision": "9e2822eab9789b13be09e43e44007005",
+    "url": "/cloufit/static/js/jsqr/compilation-mappings.txt"
+  },
+  {
+    "revision": "320d7dead05fddfaa58aa114b2ab7c84",
+    "url": "/cloufit/static/js/jsqr/jsqrscanner.devmode.js"
+  },
+  {
+    "revision": "0515ccb9544198c82e962dcba01b9aa4",
+    "url": "/cloufit/static/js/jsqr/jsqrscanner.nocache.js"
   },
   {
     "revision": "81470fedc5153e2a899160dd646e8bc5",

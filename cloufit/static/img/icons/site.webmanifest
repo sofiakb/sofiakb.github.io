@@ -1,15 +1,14 @@
 {
-  "name"             : "app-name",
-  "short_name"       : "app-name",
-  "icons"            : [
+  "name"            : "Cloutfit",
+  "short_name"      : "Cloutfit",
+  "icons"           : [
     {
-      "src"   : "./android-chrome-144x144.png",
-      "sizes" : "144x144",
-      "type"  : "image/png"
+      "src"  : "../android-chrome-144x144.png",
+      "sizes": "144x144",
+      "type" : "image/png"
     }
   ],
-  "start_url"        : "../../../index.html",
-  "background_color" : "#000000",
-  "theme_color"      : "#4DBA87",
-  "display"          : "standalone"
+  "theme_color"     : "#7e191e",
+  "background_color": "#7e191e",
+  "display"         : "standalone"
 }

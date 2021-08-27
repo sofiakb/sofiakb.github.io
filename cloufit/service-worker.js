@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cloufit/precache-manifest.652cda5b139255c40598cc61e0d66589.js"
+  "/cloufit/precache-manifest.8736397a7efb8fe8e8403a7801ec153f.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "cloufit"});
