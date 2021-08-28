@@ -1,6 +1,6 @@
 {
   "name"            : "Travelist",
-    "short_name"      : "travelist",
+    "short_name"      : "Travelist",
   "icons"            : [
     {
       "src"   : "./android-chrome-144x144.png",
