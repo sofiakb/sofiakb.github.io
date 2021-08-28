@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "be8f1f5bd2e4c28bf0e0e456576622a9",
+    "revision": "f8d397fe3186c627d3aff07d63f24781",
     "url": "/cloufit/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cloufit/robots.txt"
   },
   {
-    "revision": "d70a49dbbe4958637217",
+    "revision": "a60b62b70207cc1bfe4b",
     "url": "/cloufit/static/css/app.0b4b6ba5.css"
   },
   {
@@ -412,8 +412,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cloufit/static/img/unplugged.d46444fa.jpg"
   },
   {
-    "revision": "d70a49dbbe4958637217",
-    "url": "/cloufit/static/js/app.15ac6f50.js"
+    "revision": "a60b62b70207cc1bfe4b",
+    "url": "/cloufit/static/js/app.8a698d94.js"
   },
   {
     "revision": "87dbb702eec00b421fd9",
@@ -456,7 +456,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cloufit/static/js/jsqr/jsqrscanner.nocache.js"
   },
   {
-    "revision": "81470fedc5153e2a899160dd646e8bc5",
+    "revision": "15bd14798de6fd8f34e3a3236e6fe77b",
     "url": "/cloufit/static/manifest.json"
   }
 ]);
