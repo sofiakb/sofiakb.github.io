@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f6f12cc351850500588bd6d7921aef32",
+    "revision": "be8f1f5bd2e4c28bf0e0e456576622a9",
     "url": "/cloufit/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cloufit/robots.txt"
   },
   {
-    "revision": "a24182de43784f7f95fc",
-    "url": "/cloufit/static/css/app.cd8f28df.css"
+    "revision": "d70a49dbbe4958637217",
+    "url": "/cloufit/static/css/app.0b4b6ba5.css"
   },
   {
     "revision": "d41d8cd98f00b204e9800998ecf8427e",
@@ -412,8 +412,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cloufit/static/img/unplugged.d46444fa.jpg"
   },
   {
-    "revision": "a24182de43784f7f95fc",
-    "url": "/cloufit/static/js/app.52caa87e.js"
+    "revision": "d70a49dbbe4958637217",
+    "url": "/cloufit/static/js/app.15ac6f50.js"
   },
   {
     "revision": "87dbb702eec00b421fd9",
