@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/travelist/precache-manifest.21ccfa579358be64ab74a847703638cc.js"
+  "/travelist/precache-manifest.1c9043a710e8a44f17bb6be46e29bb26.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "travelist"});
