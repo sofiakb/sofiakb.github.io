@@ -4,7 +4,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/travelist/404.html"
   },
   {
-    "revision": "efee592076762bde5d27d7f5c3b3dba0",
+    "revision": "58137e99ef9b2ad0c29ea2356335822f",
     "url": "/travelist/index.html"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/travelist/robots.txt"
   },
   {
-    "revision": "91bd2a8816e9c276063f",
-    "url": "/travelist/static/css/app.74bbe4aa.css"
+    "revision": "e508a99e70b1ab0bde58",
+    "url": "/travelist/static/css/app.0925a2f0.css"
   },
   {
     "revision": "d41d8cd98f00b204e9800998ecf8427e",
@@ -308,8 +308,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/travelist/static/img/unplugged.d46444fa.jpg"
   },
   {
-    "revision": "91bd2a8816e9c276063f",
-    "url": "/travelist/static/js/app.ca2b608c.js"
+    "revision": "e508a99e70b1ab0bde58",
+    "url": "/travelist/static/js/app.e367e60c.js"
   },
   {
     "revision": "6c757374ab271dd77607",
