@@ -412,6 +412,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cloufit/static/img/outfits/37-a5bfc9e07964f8dddeb95fc584cd965d.jpg"
   },
   {
+    "revision": "406f5e91f3eea1669c302e5740e998a1",
+    "url": "/cloufit/static/img/outfits/38-a5771bce93e200c36f7cd9dfd0e5deaa.JPG"
+  },
+  {
+    "revision": "8d836cd0884bc85787a091d03118c856",
+    "url": "/cloufit/static/img/outfits/39-d67d8ab4f4c10bf22aa353e27879133c.JPG"
+  },
+  {
     "revision": "d46444fa464310f6c94abf6fa29b12ff",
     "url": "/cloufit/static/img/unplugged.d46444fa.jpg"
   },
