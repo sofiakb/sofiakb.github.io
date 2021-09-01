@@ -4,7 +4,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/travelist/404.html"
   },
   {
-    "revision": "315716c58dadfaa20995d2ffcc1f6872",
+    "revision": "96487d32982be601c894e1b59f1e59aa",
     "url": "/travelist/index.html"
   },
   {
@@ -16,16 +16,56 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/travelist/robots.txt"
   },
   {
-    "revision": "4ffbd89319f92e28df3e",
-    "url": "/travelist/static/css/app.43dff926.css"
+    "revision": "47719c86a797523fd14443e1ae9aaef5",
+    "url": "/travelist/static/@sofiakb/vue2-pwa-access-key/js/jsqr-loaded.js"
+  },
+  {
+    "revision": "a50ab104690c1b68b71e62456e89ad02",
+    "url": "/travelist/static/@sofiakb/vue2-pwa-access-key/js/jsqr/88507C13C1223C3F2A335CFAAA4EF584.cache.js"
+  },
+  {
+    "revision": "3109bc6a3f50631c3b0e504bab58a361",
+    "url": "/travelist/static/@sofiakb/vue2-pwa-access-key/js/jsqr/9C51964BB0BBCC41BB79120ED90449EA.cache.js"
+  },
+  {
+    "revision": "07cc1d3fbd693268647d0948e1b2eacc",
+    "url": "/travelist/static/@sofiakb/vue2-pwa-access-key/js/jsqr/B566A15506556F952CAD2B7994FFA824.cache.js"
+  },
+  {
+    "revision": "6cd7c2e3f57a82062279016dfcd979dc",
+    "url": "/travelist/static/@sofiakb/vue2-pwa-access-key/js/jsqr/D9940D84355A4C8E89013B8814821244.cache.js"
+  },
+  {
+    "revision": "590eac9fc3b470268d35045e86f2a463",
+    "url": "/travelist/static/@sofiakb/vue2-pwa-access-key/js/jsqr/F4C3969B01AFD421179360B47BCEA2E0.cache.js"
+  },
+  {
+    "revision": "6d22e4f2d2057c6e8d6fab098e76e80f",
+    "url": "/travelist/static/@sofiakb/vue2-pwa-access-key/js/jsqr/clear.cache.gif"
+  },
+  {
+    "revision": "9e2822eab9789b13be09e43e44007005",
+    "url": "/travelist/static/@sofiakb/vue2-pwa-access-key/js/jsqr/compilation-mappings.txt"
+  },
+  {
+    "revision": "320d7dead05fddfaa58aa114b2ab7c84",
+    "url": "/travelist/static/@sofiakb/vue2-pwa-access-key/js/jsqr/jsqrscanner.devmode.js"
+  },
+  {
+    "revision": "0515ccb9544198c82e962dcba01b9aa4",
+    "url": "/travelist/static/@sofiakb/vue2-pwa-access-key/js/jsqr/jsqrscanner.nocache.js"
+  },
+  {
+    "revision": "908d5a657425b29efdc5",
+    "url": "/travelist/static/css/app.6b0529d4.css"
   },
   {
     "revision": "d41d8cd98f00b204e9800998ecf8427e",
     "url": "/travelist/static/css/app.min.css"
   },
   {
-    "revision": "6ce52a940b43e5f31218",
-    "url": "/travelist/static/css/chunk-vendors.40497771.css"
+    "revision": "f1f45da50e6ea60447fc",
+    "url": "/travelist/static/css/chunk-vendors.d2869521.css"
   },
   {
     "revision": "ba4ed8fe2edc6af2190ace67f2daafb4",
@@ -308,12 +348,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/travelist/static/img/unplugged.d46444fa.jpg"
   },
   {
-    "revision": "4ffbd89319f92e28df3e",
-    "url": "/travelist/static/js/app.096cd219.js"
+    "revision": "908d5a657425b29efdc5",
+    "url": "/travelist/static/js/app.38b33077.js"
   },
   {
-    "revision": "6ce52a940b43e5f31218",
-    "url": "/travelist/static/js/chunk-vendors.f8e12917.js"
+    "revision": "f1f45da50e6ea60447fc",
+    "url": "/travelist/static/js/chunk-vendors.808b05d0.js"
   },
   {
     "revision": "a50ab104690c1b68b71e62456e89ad02",
