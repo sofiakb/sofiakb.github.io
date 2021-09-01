@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "720dc0389a7d7bafbeaa4fc0f01b2d1e",
+    "revision": "650a0cb96fa6b84ff52886d9d78dc087",
     "url": "/cloufit/index.html"
   },
   {
@@ -12,16 +12,56 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cloufit/robots.txt"
   },
   {
-    "revision": "2b51256c6e480ee9e3a9",
-    "url": "/cloufit/static/css/app.3b002d6a.css"
+    "revision": "47719c86a797523fd14443e1ae9aaef5",
+    "url": "/cloufit/static/@sofiakb/vue2-pwa-access-key/js/jsqr-loaded.js"
+  },
+  {
+    "revision": "a50ab104690c1b68b71e62456e89ad02",
+    "url": "/cloufit/static/@sofiakb/vue2-pwa-access-key/js/jsqr/88507C13C1223C3F2A335CFAAA4EF584.cache.js"
+  },
+  {
+    "revision": "3109bc6a3f50631c3b0e504bab58a361",
+    "url": "/cloufit/static/@sofiakb/vue2-pwa-access-key/js/jsqr/9C51964BB0BBCC41BB79120ED90449EA.cache.js"
+  },
+  {
+    "revision": "07cc1d3fbd693268647d0948e1b2eacc",
+    "url": "/cloufit/static/@sofiakb/vue2-pwa-access-key/js/jsqr/B566A15506556F952CAD2B7994FFA824.cache.js"
+  },
+  {
+    "revision": "6cd7c2e3f57a82062279016dfcd979dc",
+    "url": "/cloufit/static/@sofiakb/vue2-pwa-access-key/js/jsqr/D9940D84355A4C8E89013B8814821244.cache.js"
+  },
+  {
+    "revision": "590eac9fc3b470268d35045e86f2a463",
+    "url": "/cloufit/static/@sofiakb/vue2-pwa-access-key/js/jsqr/F4C3969B01AFD421179360B47BCEA2E0.cache.js"
+  },
+  {
+    "revision": "6d22e4f2d2057c6e8d6fab098e76e80f",
+    "url": "/cloufit/static/@sofiakb/vue2-pwa-access-key/js/jsqr/clear.cache.gif"
+  },
+  {
+    "revision": "9e2822eab9789b13be09e43e44007005",
+    "url": "/cloufit/static/@sofiakb/vue2-pwa-access-key/js/jsqr/compilation-mappings.txt"
+  },
+  {
+    "revision": "320d7dead05fddfaa58aa114b2ab7c84",
+    "url": "/cloufit/static/@sofiakb/vue2-pwa-access-key/js/jsqr/jsqrscanner.devmode.js"
+  },
+  {
+    "revision": "0515ccb9544198c82e962dcba01b9aa4",
+    "url": "/cloufit/static/@sofiakb/vue2-pwa-access-key/js/jsqr/jsqrscanner.nocache.js"
+  },
+  {
+    "revision": "f0fb7a9877aeecfbdbdf",
+    "url": "/cloufit/static/css/app.63e92260.css"
   },
   {
     "revision": "d41d8cd98f00b204e9800998ecf8427e",
     "url": "/cloufit/static/css/app.min.css"
   },
   {
-    "revision": "4a931a62e2fd78fb04b2",
-    "url": "/cloufit/static/css/chunk-vendors.a42f16f5.css"
+    "revision": "e9efb7ca185cee72718e",
+    "url": "/cloufit/static/css/chunk-vendors.bd14bf4f.css"
   },
   {
     "revision": "ba4ed8fe2edc6af2190ace67f2daafb4",
@@ -424,12 +464,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cloufit/static/img/unplugged.d46444fa.jpg"
   },
   {
-    "revision": "2b51256c6e480ee9e3a9",
-    "url": "/cloufit/static/js/app.f582e2c2.js"
+    "revision": "f0fb7a9877aeecfbdbdf",
+    "url": "/cloufit/static/js/app.a8acfdaf.js"
   },
   {
-    "revision": "4a931a62e2fd78fb04b2",
-    "url": "/cloufit/static/js/chunk-vendors.c763c92d.js"
+    "revision": "e9efb7ca185cee72718e",
+    "url": "/cloufit/static/js/chunk-vendors.b26c9413.js"
   },
   {
     "revision": "a50ab104690c1b68b71e62456e89ad02",
