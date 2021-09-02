@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aef96d24856ee1a06d9b4833d761e818",
+    "revision": "2ee2675e3180856c9c4d26a5c93abd18",
     "url": "/cloufit/index.html"
   },
   {
@@ -12,27 +12,27 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cloufit/robots.txt"
   },
   {
-    "revision": "47719c86a797523fd14443e1ae9aaef5",
+    "revision": "fd391ea1bb3a5458f4a2c39583a348b3",
     "url": "/cloufit/static/@sofiakb/vue2-pwa-access-key/js/jsqr-loaded.js"
   },
   {
-    "revision": "a50ab104690c1b68b71e62456e89ad02",
+    "revision": "eb791de450234e1d39c03d93a4638ee5",
     "url": "/cloufit/static/@sofiakb/vue2-pwa-access-key/js/jsqr/88507C13C1223C3F2A335CFAAA4EF584.cache.js"
   },
   {
-    "revision": "3109bc6a3f50631c3b0e504bab58a361",
+    "revision": "7008817dde063120f82aa383d65467b0",
     "url": "/cloufit/static/@sofiakb/vue2-pwa-access-key/js/jsqr/9C51964BB0BBCC41BB79120ED90449EA.cache.js"
   },
   {
-    "revision": "07cc1d3fbd693268647d0948e1b2eacc",
+    "revision": "6b29e932493cb33d9c67a097ee1fcfde",
     "url": "/cloufit/static/@sofiakb/vue2-pwa-access-key/js/jsqr/B566A15506556F952CAD2B7994FFA824.cache.js"
   },
   {
-    "revision": "6cd7c2e3f57a82062279016dfcd979dc",
+    "revision": "95e76e2d10bbb52b28a952d1d2a3d0c5",
     "url": "/cloufit/static/@sofiakb/vue2-pwa-access-key/js/jsqr/D9940D84355A4C8E89013B8814821244.cache.js"
   },
   {
-    "revision": "590eac9fc3b470268d35045e86f2a463",
+    "revision": "d903bffabeb593b2da8cc9d3a14ddac2",
     "url": "/cloufit/static/@sofiakb/vue2-pwa-access-key/js/jsqr/F4C3969B01AFD421179360B47BCEA2E0.cache.js"
   },
   {
@@ -44,15 +44,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cloufit/static/@sofiakb/vue2-pwa-access-key/js/jsqr/compilation-mappings.txt"
   },
   {
-    "revision": "320d7dead05fddfaa58aa114b2ab7c84",
+    "revision": "ae4d6d099420ca3f1aab85ff30343b51",
     "url": "/cloufit/static/@sofiakb/vue2-pwa-access-key/js/jsqr/jsqrscanner.devmode.js"
   },
   {
-    "revision": "0515ccb9544198c82e962dcba01b9aa4",
+    "revision": "de700a14982731fdbadea52556654cb9",
     "url": "/cloufit/static/@sofiakb/vue2-pwa-access-key/js/jsqr/jsqrscanner.nocache.js"
   },
   {
-    "revision": "d9a39d44be00009e0ec8",
+    "revision": "5906f792cb71bd6b2dcd",
     "url": "/cloufit/static/css/app.63e92260.css"
   },
   {
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cloufit/static/css/app.min.css"
   },
   {
-    "revision": "c5fd6083df9a93930062",
-    "url": "/cloufit/static/css/chunk-vendors.bd14bf4f.css"
+    "revision": "e6f062548b7d6cfdf4d0",
+    "url": "/cloufit/static/css/chunk-vendors.041ed559.css"
   },
   {
     "revision": "ba4ed8fe2edc6af2190ace67f2daafb4",
@@ -464,12 +464,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cloufit/static/img/unplugged.d46444fa.jpg"
   },
   {
-    "revision": "d9a39d44be00009e0ec8",
-    "url": "/cloufit/static/js/app.1ddc28c1.js"
+    "revision": "5906f792cb71bd6b2dcd",
+    "url": "/cloufit/static/js/app.f98fa6dc.js"
   },
   {
-    "revision": "c5fd6083df9a93930062",
-    "url": "/cloufit/static/js/chunk-vendors.1b9c1bf2.js"
+    "revision": "e6f062548b7d6cfdf4d0",
+    "url": "/cloufit/static/js/chunk-vendors.27cde433.js"
   },
   {
     "revision": "a50ab104690c1b68b71e62456e89ad02",

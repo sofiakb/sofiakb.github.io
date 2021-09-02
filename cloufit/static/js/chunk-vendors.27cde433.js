@@ -14597,17 +14597,6 @@ module.exports = function bind(fn, thisArg) {
 
 /***/ }),
 
-/***/ "1d6a":
-/***/ (function(module, exports) {
-
-module.exports.validIp = async (allowedIPS = ["81.49.107.149"]) =>
-	await fetch('https://api.ipify.org?format=json')
-		.then(x => x.json())
-		.then(({ ip }) => allowedIPS.includes(ip))
-		.catch(() => false)
-
-/***/ }),
-
 /***/ "1d80":
 /***/ (function(module, exports) {
 
@@ -45234,6 +45223,17 @@ module.exports = (
     return tg;
 
 })));
+
+
+/***/ }),
+
+/***/ "3b8a":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_css_loader_dist_cjs_js_ref_6_oneOf_1_1_vue_loader_lib_loaders_stylePostLoader_js_postcss_loader_src_index_js_ref_6_oneOf_1_2_cache_loader_dist_cjs_js_ref_0_0_vue_loader_lib_index_js_vue_loader_options_qr_scanner_vue_vue_type_style_index_0_id_492985ce_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("f1d1");
+/* harmony import */ var _mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_css_loader_dist_cjs_js_ref_6_oneOf_1_1_vue_loader_lib_loaders_stylePostLoader_js_postcss_loader_src_index_js_ref_6_oneOf_1_2_cache_loader_dist_cjs_js_ref_0_0_vue_loader_lib_index_js_vue_loader_options_qr_scanner_vue_vue_type_style_index_0_id_492985ce_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_css_loader_dist_cjs_js_ref_6_oneOf_1_1_vue_loader_lib_loaders_stylePostLoader_js_postcss_loader_src_index_js_ref_6_oneOf_1_2_cache_loader_dist_cjs_js_ref_0_0_vue_loader_lib_index_js_vue_loader_options_qr_scanner_vue_vue_type_style_index_0_id_492985ce_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
 
 
 /***/ }),
@@ -81166,426 +81166,6 @@ function _getPrototypeOf(o) {
 
 /***/ }),
 
-/***/ "7ebd":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, "b", function() { return /* reexport */ access_scanner; });
-__webpack_require__.d(__webpack_exports__, "a", function() { return /* reexport */ access_key_middleware; });
-
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"0bcff8d5-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/@sofiakb/vue2-pwa-access-key/src/components/access-scanner.vue?vue&type=template&id=2924c5de&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('ssf-container',{attrs:{"name":"access-scanner"}},[_c('qr-scanner',{on:{"scan":_vm.extract}})],1)}
-var staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./node_modules/@sofiakb/vue2-pwa-access-key/src/components/access-scanner.vue?vue&type=template&id=2924c5de&scoped=true&
-
-// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js
-var asyncToGenerator = __webpack_require__("1da1");
-
-// EXTERNAL MODULE: ./node_modules/regenerator-runtime/runtime.js
-var runtime = __webpack_require__("96cf");
-
-// EXTERNAL MODULE: ./node_modules/core-js/modules/es.string.trim.js
-var es_string_trim = __webpack_require__("498a");
-
-// EXTERNAL MODULE: ./node_modules/core-js/modules/es.regexp.exec.js
-var es_regexp_exec = __webpack_require__("ac1f");
-
-// EXTERNAL MODULE: ./node_modules/core-js/modules/es.string.split.js
-var es_string_split = __webpack_require__("1276");
-
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"0bcff8d5-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/@sofiakb/vue2-pwa-access-key/src/components/qr-scanner.vue?vue&type=template&id=376b516d&scoped=true&
-var qr_scannervue_type_template_id_376b516d_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('ssf-container',{staticClass:"position-relative full-flex",attrs:{"name":"qr-scanner","id":"qrScanner","not-full":""}},[_c('div',{staticClass:"position-absolute",class:{scanning: _vm.scanning},attrs:{"id":"scanner"}},[_c('span')]),(_vm.scanning)?_c('div',{staticClass:"scanner-bar scanning"}):_vm._e(),(_vm.scanned)?_c('div',{staticClass:"scanned full-flex"},[_c('ssf-icon',{staticClass:"green-text",attrs:{"icon":"check-circle","la":"","size":"6x"}})],1):_vm._e()])}
-var qr_scannervue_type_template_id_376b516d_scoped_true_staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./node_modules/@sofiakb/vue2-pwa-access-key/src/components/qr-scanner.vue?vue&type=template&id=376b516d&scoped=true&
-
-// EXTERNAL MODULE: ./node_modules/core-js/modules/es.number.constructor.js
-var es_number_constructor = __webpack_require__("a9e3");
-
-// CONCATENATED MODULE: ./node_modules/@sofiakb/vue2-pwa-access-key/src/utils/jsqr.js
-const onQRCodeScanned = function (scannedText) {
-  if (scannedText && !(scannedText.trim() === ''))
-    window.dispatchEvent(new CustomEvent('scanned', { detail: { text: scannedText } }))
-}
-
-//funtion returning a promise with a video stream
-const provideVideoQQ = function () {
-  return navigator.mediaDevices.enumerateDevices()
-    .then(function (devices) {
-      var exCameras = [];
-      devices.forEach(function (device) {
-        if (device.kind === 'videoinput') {
-          exCameras.push(device.deviceId)
-        }
-      });
-
-      return Promise.resolve(exCameras);
-    }).then(function (ids) {
-      if (ids.length === 0) {
-        return Promise.reject('Could not find a webcam');
-      }
-
-      // console.log(navigator.mediaDevices)
-
-      return navigator.mediaDevices.getUserMedia({
-        audio: false,
-        video: {
-          width : { min: 198, ideal: 198, max: 198 },
-          height: { min: 198, ideal: 198, max: 198 },
-
-          facingMode: {
-            exact: 'environment'
-          },
-
-          /*optional: [{
-           // sourceId: ids[1]//this way QQ browser opens the rear camera
-           'sourceId': ids.length === 1 ? ids[0] : ids[1]//this way QQ browser opens the rear camera
-           }]*/
-        }
-      });
-    });
-}
-
-//this function will be called when JsQRScanner is ready to use
-const JsQRScannerReady = function (size = 300) {
-  //create a new scanner passing to it a callback function that will be invoked when
-  //the scanner succesfully scan a QR code
-  // var jbScanner = new JsQRScanner(onQRCodeScanned);
-  var jbScanner = new JsQRScanner(onQRCodeScanned, provideVideoQQ);
-  //reduce the size of analyzed images to increase performance on mobile devices
-  jbScanner.setSnapImageMaxSize(size);
-  var scannerParentElement = document.getElementById("qrScanner");
-  if (scannerParentElement) {
-    //append the jbScanner to an existing DOM element
-    jbScanner.appendTo(scannerParentElement);
-    return jbScanner;
-  } else return null
-}
-
-
-
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/@sofiakb/vue2-pwa-access-key/src/components/qr-scanner.vue?vue&type=script&lang=js&
-
-
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-/* harmony default export */ var qr_scannervue_type_script_lang_js_ = ({
-  name: "qr-scanner",
-  props: {
-    size: {
-      type: Number | String,
-      required: false,
-      default: 200
-    }
-  },
-  data: function data() {
-    return {
-      jbScanner: null,
-      scanned: false
-    };
-  },
-  mounted: function mounted() {
-    var _this = this;
-
-    this.$nextTick(function () {
-      return window.addEventListener('scanned', _this.onScanned);
-    });
-    this.$nextTick(function () {
-      return window.addEventListener('scannerReady', _this.onScannerReady);
-    });
-  },
-  beforeDestroy: function beforeDestroy() {
-    window.removeEventListener('scanned', function () {
-      return null;
-    });
-    window.removeEventListener('scannerReady', function () {
-      return null;
-    });
-  },
-  computed: {
-    scanning: function scanning() {
-      return this.jbScanner ? this.jbScanner.isScanning() : false;
-    }
-  },
-  methods: {
-    onScannerReady: function onScannerReady() {
-      if ((this.jbScanner = JsQRScannerReady(this.size)) === null) alert('Cannot initialize camera');else {
-        $('.qrPreviewVideo').attr('controls', false);
-      }
-    },
-    onScanned: function onScanned(event) {
-      var _this2 = this;
-
-      var text = event && event.detail ? event.detail.text : null;
-
-      if (text && text.trim()) {
-        this.scanned = true;
-        this.jbScanner.stopScanning();
-        setTimeout(function () {
-          _this2.$emit('scan', text);
-
-          _this2.jbScanner.resumeScanning();
-
-          _this2.scanned = false;
-        }, 2000);
-      }
-    }
-  }
-});
-// CONCATENATED MODULE: ./node_modules/@sofiakb/vue2-pwa-access-key/src/components/qr-scanner.vue?vue&type=script&lang=js&
- /* harmony default export */ var components_qr_scannervue_type_script_lang_js_ = (qr_scannervue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/@sofiakb/vue2-pwa-access-key/src/components/qr-scanner.vue?vue&type=style&index=0&id=376b516d&scoped=true&lang=css&
-var qr_scannervue_type_style_index_0_id_376b516d_scoped_true_lang_css_ = __webpack_require__("8685");
-
-// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
-var componentNormalizer = __webpack_require__("2877");
-
-// CONCATENATED MODULE: ./node_modules/@sofiakb/vue2-pwa-access-key/src/components/qr-scanner.vue
-
-
-
-
-
-
-/* normalize component */
-
-var component = Object(componentNormalizer["a" /* default */])(
-  components_qr_scannervue_type_script_lang_js_,
-  qr_scannervue_type_template_id_376b516d_scoped_true_render,
-  qr_scannervue_type_template_id_376b516d_scoped_true_staticRenderFns,
-  false,
-  null,
-  "376b516d",
-  null
-  
-)
-
-/* harmony default export */ var qr_scanner = (component.exports);
-// CONCATENATED MODULE: ./node_modules/@sofiakb/vue2-pwa-access-key/src/utils/access.js
-const conf = __webpack_require__("89ee").default,
-	url = conf.server.replace("cloufit", 'access')
-
-
-class Access {
-	all() {
-		return new Promise((resolve, reject) =>
-			fetch(`${url}`)
-				.then(() => resolve(true))
-				.catch(() => reject(false)))
-	}
-}
-
-/* harmony default export */ var access = (new Access());
-
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/@sofiakb/vue2-pwa-access-key/src/components/access-scanner.vue?vue&type=script&lang=js&
-
-
-
-
-
-//
-//
-//
-//
-//
-//
-
-
-
-var _require = __webpack_require__("1d6a"),
-    validIp = _require.validIp;
-
-/* harmony default export */ var access_scannervue_type_script_lang_js_ = ({
-  name: "access-scanner",
-  components: {
-    QrScanner: qr_scanner
-  },
-  computed: {
-    storageKey: function storageKey() {
-      return this.$store.getters.cookieAccessKey;
-    },
-    token: function token() {
-      return localStorage.getItem(this.storageKey);
-    }
-  },
-  watch: {
-    token: {
-      immediate: true,
-      handler: function handler(val, oldVal) {
-        var _this = this;
-
-        return Object(asyncToGenerator["a" /* default */])( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
-          var token;
-          return regeneratorRuntime.wrap(function _callee$(_context) {
-            while (1) {
-              switch (_context.prev = _context.next) {
-                case 0:
-                  token = val;
-                  _context.t0 = token !== null && token.trim() === '';
-
-                  if (!_context.t0) {
-                    _context.next = 6;
-                    break;
-                  }
-
-                  _context.next = 5;
-                  return access.all().then(function () {
-                    return true;
-                  }).catch(function () {
-                    return false;
-                  });
-
-                case 5:
-                  _context.t0 = _context.sent;
-
-                case 6:
-                  if (!_context.t0) {
-                    _context.next = 8;
-                    break;
-                  }
-
-                  return _context.abrupt("return", _this.$router.push({
-                    name: 'home'
-                  }));
-
-                case 8:
-                  _context.next = 10;
-                  return validIp(["81.49.107.149"]);
-
-                case 10:
-                  if (!_context.sent) {
-                    _context.next = 12;
-                    break;
-                  }
-
-                  return _context.abrupt("return", _this.$router.push({
-                    name: 'home'
-                  }));
-
-                case 12:
-                case "end":
-                  return _context.stop();
-              }
-            }
-          }, _callee);
-        }))();
-      }
-    }
-  },
-  methods: {
-    extract: function extract(result) {
-      var _this2 = this;
-
-      var token = result.split('/').reverse()[0] || null;
-      if (token === null || token.trim() === '') return;
-      setTimeout(function () {
-        localStorage.setItem(_this2.storageKey, token);
-
-        _this2.$router.push({
-          name: 'home'
-        });
-      }, 1000);
-    }
-  }
-});
-// CONCATENATED MODULE: ./node_modules/@sofiakb/vue2-pwa-access-key/src/components/access-scanner.vue?vue&type=script&lang=js&
- /* harmony default export */ var components_access_scannervue_type_script_lang_js_ = (access_scannervue_type_script_lang_js_); 
-// CONCATENATED MODULE: ./node_modules/@sofiakb/vue2-pwa-access-key/src/components/access-scanner.vue
-
-
-
-
-
-/* normalize component */
-
-var access_scanner_component = Object(componentNormalizer["a" /* default */])(
-  components_access_scannervue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  "2924c5de",
-  null
-  
-)
-
-/* harmony default export */ var access_scanner = (access_scanner_component.exports);
-// CONCATENATED MODULE: ./node_modules/@sofiakb/vue2-pwa-access-key/src/utils/access-key-middleware.js
-/**
- * File app/middleware/access-key-middleware.js
- *
- * Ce fichier contient le middleware pour l'accès à l'app
- *
- * @author sofianeakbly
- **/
-
-
-
-const { validIp: access_key_middleware_validIp } = __webpack_require__("1d6a");
-
-/**
- * Vérifie si l'accès à l'app est autorisé
- *
- * @param to La route suivante
- * @param from La route de provenance
- * @param next La requête suivante
- **/
-
-/* harmony default export */ var access_key_middleware = (async (to, from, next) => {
-	const store = __webpack_require__("b209").default,
-		cookieKey = store.getters.cookieAccessKey,
-		token = localStorage.getItem(cookieKey),
-		notDev = store.getters.APP_ENV !== 'dev'
-
-	if (notDev && !token) {
-
-		if (notDev) {
-			let valid = await access_key_middleware_validIp(["81.49.107.149"])
-
-			if (valid)
-				return next()
-			else return next({ name: 'access.scanner' })
-		} else
-			return next({ name: 'access.scanner' });
-	}
-
-	access
-		.all()
-		.then(() => next())
-		.catch(() => {
-			if (notDev && token) {
-				localStorage.removeItem(cookieKey)
-				return location.reload()
-			}
-			return next()
-		})
-});
-
-
-// CONCATENATED MODULE: ./node_modules/@sofiakb/vue2-pwa-access-key/src/index.js
-
-
-
-
-
-
-/***/ }),
-
 /***/ "7f33":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -82373,17 +81953,6 @@ module.exports = function (string, tag, attribute, value) {
 module.exports = function (it) {
   return typeof it === 'object' ? it !== null : typeof it === 'function';
 };
-
-
-/***/ }),
-
-/***/ "8685":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_css_loader_dist_cjs_js_ref_6_oneOf_1_1_vue_loader_lib_loaders_stylePostLoader_js_postcss_loader_src_index_js_ref_6_oneOf_1_2_cache_loader_dist_cjs_js_ref_0_0_vue_loader_lib_index_js_vue_loader_options_qr_scanner_vue_vue_type_style_index_0_id_376b516d_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("a4ae");
-/* harmony import */ var _mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_css_loader_dist_cjs_js_ref_6_oneOf_1_1_vue_loader_lib_loaders_stylePostLoader_js_postcss_loader_src_index_js_ref_6_oneOf_1_2_cache_loader_dist_cjs_js_ref_0_0_vue_loader_lib_index_js_vue_loader_options_qr_scanner_vue_vue_type_style_index_0_id_376b516d_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_css_loader_dist_cjs_js_ref_6_oneOf_1_1_vue_loader_lib_loaders_stylePostLoader_js_postcss_loader_src_index_js_ref_6_oneOf_1_2_cache_loader_dist_cjs_js_ref_0_0_vue_loader_lib_index_js_vue_loader_options_qr_scanner_vue_vue_type_style_index_0_id_376b516d_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
 
 
 /***/ }),
@@ -89459,7 +89028,7 @@ $({ target: 'Array', proto: true, forced: ES3_STRINGS || !STRICT_METHOD }, {
 __webpack_require__.d(__webpack_exports__, "a", function() { return /* reexport */ Stack; });
 __webpack_require__.d(__webpack_exports__, "b", function() { return /* reexport */ StackItem; });
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"0bcff8d5-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/vue-stack-grid/src/Stack.vue?vue&type=template&id=16805b83&scoped=true&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"666639e2-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/vue-stack-grid/src/Stack.vue?vue&type=template&id=16805b83&scoped=true&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{directives:[{name:"images-loaded",rawName:"v-images-loaded:on.progress",value:(_vm.imagesLoaded),expression:"imagesLoaded",arg:"on",modifiers:{"progress":true}}],ref:"container",staticClass:"vsg-container"},[_vm._t("default")],2)}
 var staticRenderFns = []
 
@@ -89622,7 +89191,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 )
 
 /* harmony default export */ var Stack = (component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"0bcff8d5-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/vue-stack-grid/src/StackItem.vue?vue&type=template&id=52060b20&scoped=true&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"666639e2-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/vue-stack-grid/src/StackItem.vue?vue&type=template&id=52060b20&scoped=true&
 var StackItemvue_type_template_id_52060b20_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"vsg-stack-item"},[_vm._t("default")],2)}
 var StackItemvue_type_template_id_52060b20_scoped_true_staticRenderFns = []
 
@@ -89906,13 +89475,6 @@ $({ target: 'Array', proto: true, forced: !HAS_SPECIES_SUPPORT }, {
   }
 });
 
-
-/***/ }),
-
-/***/ "a4ae":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -103241,6 +102803,411 @@ for (var COLLECTION_NAME in DOMIterables) {
 
 /***/ }),
 
+/***/ "de53":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, "b", function() { return /* reexport */ access_scanner; });
+__webpack_require__.d(__webpack_exports__, "a", function() { return /* reexport */ access_key_middleware; });
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"666639e2-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/@sofiakb/vue2-pwa-access-key/lib/components/access-scanner.vue?vue&type=template&id=0b93cb6e&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('ssf-container',{attrs:{"name":"access-scanner"}},[_c('qr-scanner',{on:{"scan":_vm.extract}})],1)}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./node_modules/@sofiakb/vue2-pwa-access-key/lib/components/access-scanner.vue?vue&type=template&id=0b93cb6e&scoped=true&
+
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js
+var asyncToGenerator = __webpack_require__("1da1");
+
+// EXTERNAL MODULE: ./node_modules/regenerator-runtime/runtime.js
+var runtime = __webpack_require__("96cf");
+
+// EXTERNAL MODULE: ./node_modules/core-js/modules/es.string.trim.js
+var es_string_trim = __webpack_require__("498a");
+
+// EXTERNAL MODULE: ./node_modules/core-js/modules/es.regexp.exec.js
+var es_regexp_exec = __webpack_require__("ac1f");
+
+// EXTERNAL MODULE: ./node_modules/core-js/modules/es.string.split.js
+var es_string_split = __webpack_require__("1276");
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"666639e2-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/@sofiakb/vue2-pwa-access-key/lib/components/qr-scanner.vue?vue&type=template&id=492985ce&scoped=true&
+var qr_scannervue_type_template_id_492985ce_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('ssf-container',{staticClass:"position-relative full-flex",attrs:{"name":"qr-scanner","id":"qrScanner","not-full":""}},[_c('div',{staticClass:"position-absolute",class:{scanning: _vm.scanning},attrs:{"id":"scanner"}},[_c('span')]),(_vm.scanning)?_c('div',{staticClass:"scanner-bar scanning"}):_vm._e(),(_vm.scanned)?_c('div',{staticClass:"scanned full-flex"},[_c('ssf-icon',{staticClass:"green-text",attrs:{"icon":"check-circle","la":"","size":"6x"}})],1):_vm._e()])}
+var qr_scannervue_type_template_id_492985ce_scoped_true_staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./node_modules/@sofiakb/vue2-pwa-access-key/lib/components/qr-scanner.vue?vue&type=template&id=492985ce&scoped=true&
+
+// EXTERNAL MODULE: ./node_modules/core-js/modules/es.number.constructor.js
+var es_number_constructor = __webpack_require__("a9e3");
+
+// CONCATENATED MODULE: ./node_modules/@sofiakb/vue2-pwa-access-key/lib/utils/jsqr.js
+const onQRCodeScanned = function (scannedText) {
+  if (scannedText && !(scannedText.trim() === '')) window.dispatchEvent(new CustomEvent('scanned', { detail: { text: scannedText } }));
+};
+
+//funtion returning a promise with a video stream
+const provideVideoQQ = function () {
+  return navigator.mediaDevices.enumerateDevices().then(function (devices) {
+    var exCameras = [];
+    devices.forEach(function (device) {
+      if (device.kind === 'videoinput') {
+        exCameras.push(device.deviceId);
+      }
+    });
+
+    return Promise.resolve(exCameras);
+  }).then(function (ids) {
+    if (ids.length === 0) {
+      return Promise.reject('Could not find a webcam');
+    }
+
+    // console.log(navigator.mediaDevices)
+
+    return navigator.mediaDevices.getUserMedia({
+      audio: false,
+      video: {
+        width: { min: 198, ideal: 198, max: 198 },
+        height: { min: 198, ideal: 198, max: 198 },
+
+        facingMode: {
+          exact: 'environment'
+        }
+
+        /*optional: [{
+         // sourceId: ids[1]//this way QQ browser opens the rear camera
+         'sourceId': ids.length === 1 ? ids[0] : ids[1]//this way QQ browser opens the rear camera
+         }]*/
+      }
+    });
+  });
+};
+
+//this function will be called when JsQRScanner is ready to use
+const JsQRScannerReady = function (size = 300) {
+  //create a new scanner passing to it a callback function that will be invoked when
+  //the scanner succesfully scan a QR code
+  // var jbScanner = new JsQRScanner(onQRCodeScanned);
+  var jbScanner = new JsQRScanner(onQRCodeScanned, provideVideoQQ);
+  //reduce the size of analyzed images to increase performance on mobile devices
+  jbScanner.setSnapImageMaxSize(size);
+  var scannerParentElement = document.getElementById("qrScanner");
+  if (scannerParentElement) {
+    //append the jbScanner to an existing DOM element
+    jbScanner.appendTo(scannerParentElement);
+    return jbScanner;
+  } else return null;
+};
+
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/@sofiakb/vue2-pwa-access-key/lib/components/qr-scanner.vue?vue&type=script&lang=js&
+
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ var qr_scannervue_type_script_lang_js_ = ({
+  name: "qr-scanner",
+  props: {
+    size: {
+      type: Number | String,
+      required: false,
+      default: 200
+    }
+  },
+  data: function data() {
+    return {
+      jbScanner: null,
+      scanned: false
+    };
+  },
+  mounted: function mounted() {
+    var _this = this;
+
+    this.$nextTick(function () {
+      return window.addEventListener('scanned', _this.onScanned);
+    });
+    this.$nextTick(function () {
+      return window.addEventListener('scannerReady', _this.onScannerReady);
+    });
+  },
+  beforeDestroy: function beforeDestroy() {
+    window.removeEventListener('scanned', function () {
+      return null;
+    });
+    window.removeEventListener('scannerReady', function () {
+      return null;
+    });
+  },
+  computed: {
+    scanning: function scanning() {
+      return this.jbScanner ? this.jbScanner.isScanning() : false;
+    }
+  },
+  methods: {
+    onScannerReady: function onScannerReady() {
+      if ((this.jbScanner = JsQRScannerReady(this.size)) === null) alert('Cannot initialize camera');else {
+        $('.qrPreviewVideo').attr('controls', false);
+      }
+    },
+    onScanned: function onScanned(event) {
+      var _this2 = this;
+
+      var text = event && event.detail ? event.detail.text : null;
+
+      if (text && text.trim()) {
+        this.scanned = true;
+        this.jbScanner.stopScanning();
+        setTimeout(function () {
+          _this2.$emit('scan', text);
+
+          _this2.jbScanner.resumeScanning();
+
+          _this2.scanned = false;
+        }, 2000);
+      }
+    }
+  }
+});
+// CONCATENATED MODULE: ./node_modules/@sofiakb/vue2-pwa-access-key/lib/components/qr-scanner.vue?vue&type=script&lang=js&
+ /* harmony default export */ var components_qr_scannervue_type_script_lang_js_ = (qr_scannervue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./node_modules/@sofiakb/vue2-pwa-access-key/lib/components/qr-scanner.vue?vue&type=style&index=0&id=492985ce&scoped=true&lang=css&
+var qr_scannervue_type_style_index_0_id_492985ce_scoped_true_lang_css_ = __webpack_require__("3b8a");
+
+// EXTERNAL MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
+var componentNormalizer = __webpack_require__("2877");
+
+// CONCATENATED MODULE: ./node_modules/@sofiakb/vue2-pwa-access-key/lib/components/qr-scanner.vue
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(componentNormalizer["a" /* default */])(
+  components_qr_scannervue_type_script_lang_js_,
+  qr_scannervue_type_template_id_492985ce_scoped_true_render,
+  qr_scannervue_type_template_id_492985ce_scoped_true_staticRenderFns,
+  false,
+  null,
+  "492985ce",
+  null
+  
+)
+
+/* harmony default export */ var qr_scanner = (component.exports);
+// CONCATENATED MODULE: ./node_modules/@sofiakb/vue2-pwa-access-key/lib/utils/access.js
+const conf = __webpack_require__("89ee").default,
+      url = conf.server.replace("cloufit", 'access');
+
+class Access {
+	all() {
+		return new Promise((resolve, reject) => fetch(`${url}`).then(() => resolve(true)).catch(() => reject(false)));
+	}
+}
+
+/* harmony default export */ var access = (new Access());
+// CONCATENATED MODULE: ./node_modules/@sofiakb/vue2-pwa-access-key/lib/utils/index.js
+const validIp = async (allowedIPS = ["81.49.107.149"]) => await fetch('https://api.ipify.org?format=json').then(x => x.json()).then(({ ip }) => allowedIPS.includes(ip)).catch(() => false);
+
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/@sofiakb/vue2-pwa-access-key/lib/components/access-scanner.vue?vue&type=script&lang=js&
+
+
+
+
+
+//
+//
+//
+//
+//
+//
+
+
+
+/* harmony default export */ var access_scannervue_type_script_lang_js_ = ({
+  name: "access-scanner",
+  components: {
+    QrScanner: qr_scanner
+  },
+  computed: {
+    storageKey: function storageKey() {
+      return this.$store.getters.cookieAccessKey;
+    },
+    token: function token() {
+      return localStorage.getItem(this.storageKey);
+    }
+  },
+  watch: {
+    token: {
+      immediate: true,
+      handler: function handler(val, oldVal) {
+        var _this = this;
+
+        return Object(asyncToGenerator["a" /* default */])( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
+          var token;
+          return regeneratorRuntime.wrap(function _callee$(_context) {
+            while (1) {
+              switch (_context.prev = _context.next) {
+                case 0:
+                  token = val;
+                  _context.t0 = token !== null && token.trim() === '';
+
+                  if (!_context.t0) {
+                    _context.next = 6;
+                    break;
+                  }
+
+                  _context.next = 5;
+                  return access.all().then(function () {
+                    return true;
+                  }).catch(function () {
+                    return false;
+                  });
+
+                case 5:
+                  _context.t0 = _context.sent;
+
+                case 6:
+                  if (!_context.t0) {
+                    _context.next = 8;
+                    break;
+                  }
+
+                  return _context.abrupt("return", _this.$router.push({
+                    name: 'home'
+                  }));
+
+                case 8:
+                  _context.next = 10;
+                  return validIp(["81.49.107.149"]);
+
+                case 10:
+                  if (!_context.sent) {
+                    _context.next = 12;
+                    break;
+                  }
+
+                  return _context.abrupt("return", _this.$router.push({
+                    name: 'home'
+                  }));
+
+                case 12:
+                case "end":
+                  return _context.stop();
+              }
+            }
+          }, _callee);
+        }))();
+      }
+    }
+  },
+  methods: {
+    extract: function extract(result) {
+      var _this2 = this;
+
+      var token = result.split('/').reverse()[0] || null;
+      if (token === null || token.trim() === '') return;
+      setTimeout(function () {
+        localStorage.setItem(_this2.storageKey, token);
+
+        _this2.$router.push({
+          name: 'home'
+        });
+      }, 1000);
+    }
+  }
+});
+// CONCATENATED MODULE: ./node_modules/@sofiakb/vue2-pwa-access-key/lib/components/access-scanner.vue?vue&type=script&lang=js&
+ /* harmony default export */ var components_access_scannervue_type_script_lang_js_ = (access_scannervue_type_script_lang_js_); 
+// CONCATENATED MODULE: ./node_modules/@sofiakb/vue2-pwa-access-key/lib/components/access-scanner.vue
+
+
+
+
+
+/* normalize component */
+
+var access_scanner_component = Object(componentNormalizer["a" /* default */])(
+  components_access_scannervue_type_script_lang_js_,
+  render,
+  staticRenderFns,
+  false,
+  null,
+  "0b93cb6e",
+  null
+  
+)
+
+/* harmony default export */ var access_scanner = (access_scanner_component.exports);
+// CONCATENATED MODULE: ./node_modules/@sofiakb/vue2-pwa-access-key/lib/utils/access-key-middleware.js
+/**
+ * File app/middleware/access-key-middleware.js
+ *
+ * Ce fichier contient le middleware pour l'accès à l'app
+ *
+ * @author sofianeakbly
+ **/
+
+
+
+
+
+/**
+ * Vérifie si l'accès à l'app est autorisé
+ *
+ * @param to La route suivante
+ * @param from La route de provenance
+ * @param next La requête suivante
+ **/
+
+/* harmony default export */ var access_key_middleware = (async (to, from, next) => {
+	const store = __webpack_require__("b209").default,
+	      cookieKey = store.getters.cookieAccessKey,
+	      token = localStorage.getItem(cookieKey),
+	      notDev = store.getters.APP_ENV !== 'dev';
+
+	if (notDev && !token) {
+
+		if (notDev) {
+			let valid = await validIp(["81.49.107.149"]);
+
+			if (valid) return next();else return next({ name: 'access.scanner' });
+		} else return next({ name: 'access.scanner' });
+	}
+
+	access.all().then(() => next()).catch(() => {
+		if (notDev && token) {
+			localStorage.removeItem(cookieKey);
+			return location.reload();
+		}
+		return next();
+	});
+});
+// CONCATENATED MODULE: ./node_modules/@sofiakb/vue2-pwa-access-key/lib/index.js
+
+
+
+
+
+
+/***/ }),
+
 /***/ "df75":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -104990,6 +104957,13 @@ module.exports.f = function (C) {
   return new PromiseCapability(C);
 };
 
+
+/***/ }),
+
+/***/ "f1d1":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
 
 /***/ }),
 
