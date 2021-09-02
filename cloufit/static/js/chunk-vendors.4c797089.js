@@ -14597,6 +14597,21 @@ module.exports = function bind(fn, thisArg) {
 
 /***/ }),
 
+/***/ "1d6a":
+/***/ (function(module, exports) {
+
+const validIp = async (allowedIPS = ["81.49.107.149"]) =>
+	await fetch('https://api.ipify.org?format=json')
+		.then(x => x.json())
+		.then(({ ip }) => allowedIPS.includes(ip))
+		.catch(() => false)
+
+module.exports = {
+	validIp
+}
+
+/***/ }),
+
 /***/ "1d80":
 /***/ (function(module, exports) {
 
@@ -81164,7 +81179,7 @@ function _getPrototypeOf(o) {
 __webpack_require__.d(__webpack_exports__, "b", function() { return /* reexport */ access_scanner; });
 __webpack_require__.d(__webpack_exports__, "a", function() { return /* reexport */ access_key_middleware; });
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2e4e23c7-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/@sofiakb/vue2-pwa-access-key/src/components/access-scanner.vue?vue&type=template&id=518d64e5&scoped=true&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"187c075e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/@sofiakb/vue2-pwa-access-key/src/components/access-scanner.vue?vue&type=template&id=518d64e5&scoped=true&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('ssf-container',{attrs:{"name":"access-scanner"}},[_c('qr-scanner',{on:{"scan":_vm.extract}})],1)}
 var staticRenderFns = []
 
@@ -81186,7 +81201,7 @@ var es_regexp_exec = __webpack_require__("ac1f");
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.string.split.js
 var es_string_split = __webpack_require__("1276");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2e4e23c7-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/@sofiakb/vue2-pwa-access-key/src/components/qr-scanner.vue?vue&type=template&id=376b516d&scoped=true&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"187c075e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/@sofiakb/vue2-pwa-access-key/src/components/qr-scanner.vue?vue&type=template&id=376b516d&scoped=true&
 var qr_scannervue_type_template_id_376b516d_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('ssf-container',{staticClass:"position-relative full-flex",attrs:{"name":"qr-scanner","id":"qrScanner","not-full":""}},[_c('div',{staticClass:"position-absolute",class:{scanning: _vm.scanning},attrs:{"id":"scanner"}},[_c('span')]),(_vm.scanning)?_c('div',{staticClass:"scanner-bar scanning"}):_vm._e(),(_vm.scanned)?_c('div',{staticClass:"scanned full-flex"},[_c('ssf-icon',{staticClass:"green-text",attrs:{"icon":"check-circle","la":"","size":"6x"}})],1):_vm._e()])}
 var qr_scannervue_type_template_id_376b516d_scoped_true_staticRenderFns = []
 
@@ -81381,14 +81396,8 @@ class Access {
 
 /* harmony default export */ var access = (new Access());
 
-// CONCATENATED MODULE: ./node_modules/@sofiakb/vue2-pwa-access-key/src/utils/index.js
-const validIp = async function (allowedIPS = ["81.49.107.149"]) {
-	return await fetch('https://api.ipify.org?format=json')
-		.then(x => x.json())
-		.then(({ ip }) => allowedIPS.includes(ip))
-		.catch(() => false)
-}
-
+// EXTERNAL MODULE: ./node_modules/@sofiakb/vue2-pwa-access-key/src/utils/index.js
+var utils = __webpack_require__("1d6a");
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/@sofiakb/vue2-pwa-access-key/src/components/access-scanner.vue?vue&type=script&lang=js&
 
@@ -81460,7 +81469,7 @@ const validIp = async function (allowedIPS = ["81.49.107.149"]) {
 
                 case 8:
                   _context.next = 10;
-                  return validIp(["81.49.107.149"]);
+                  return Object(utils["validIp"])(["81.49.107.149"]);
 
                 case 10:
                   if (!_context.sent) {
@@ -81549,7 +81558,7 @@ var access_scanner_component = Object(componentNormalizer["a" /* default */])(
 	if (notDev && !token) {
 
 		if (notDev) {
-			let valid = await validIp(["81.49.107.149"])
+			let valid = await Object(utils["validIp"])(["81.49.107.149"])
 
 			if (valid)
 				return next()
@@ -89453,7 +89462,7 @@ $({ target: 'Array', proto: true, forced: ES3_STRINGS || !STRICT_METHOD }, {
 __webpack_require__.d(__webpack_exports__, "a", function() { return /* reexport */ Stack; });
 __webpack_require__.d(__webpack_exports__, "b", function() { return /* reexport */ StackItem; });
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2e4e23c7-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/vue-stack-grid/src/Stack.vue?vue&type=template&id=16805b83&scoped=true&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"187c075e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/vue-stack-grid/src/Stack.vue?vue&type=template&id=16805b83&scoped=true&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{directives:[{name:"images-loaded",rawName:"v-images-loaded:on.progress",value:(_vm.imagesLoaded),expression:"imagesLoaded",arg:"on",modifiers:{"progress":true}}],ref:"container",staticClass:"vsg-container"},[_vm._t("default")],2)}
 var staticRenderFns = []
 
@@ -89616,7 +89625,7 @@ var component = Object(componentNormalizer["a" /* default */])(
 )
 
 /* harmony default export */ var Stack = (component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2e4e23c7-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/vue-stack-grid/src/StackItem.vue?vue&type=template&id=52060b20&scoped=true&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"187c075e-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/vue-stack-grid/src/StackItem.vue?vue&type=template&id=52060b20&scoped=true&
 var StackItemvue_type_template_id_52060b20_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"vsg-stack-item"},[_vm._t("default")],2)}
 var StackItemvue_type_template_id_52060b20_scoped_true_staticRenderFns = []
 
