@@ -1,3 +1,7 @@
+'use strict';
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
 function jsqrscanner() {
   var O = 'bootstrap',
       P = 'begin',
@@ -110,8 +114,8 @@ function jsqrscanner() {
   function A(k) {
     function l(a) {
       function b() {
-        if (typeof p.readyState == cb) {
-          return typeof p.body != cb && p.body != null;
+        if (_typeof(p.readyState) == cb) {
+          return _typeof(p.body) != cb && p.body != null;
         }return (/loaded|complete/.test(p.readyState)
         );
       }
@@ -196,7 +200,7 @@ function jsqrscanner() {
           }
         }
       }
-    }__gwt_getMetaProperty = function (a) {
+    }__gwt_getMetaProperty = function __gwt_getMetaProperty(a) {
       var b = c[a];return b == null ? null : b;
     };s = d;jsqrscanner.__errFn = e;
   }
@@ -276,7 +280,7 @@ function jsqrscanner() {
       }()) return Sb;if (function () {
         return a.indexOf(Tb) != -1 || b >= Nb;
       }()) return Ub;return ab;
-    };i[Jb] = { 'gecko1_8': V, 'ie10': W, 'ie8': Vb, 'ie9': Wb, 'safari': Xb };__gwt_isKnownPropertyValue = function (a, b) {
+    };i[Jb] = { 'gecko1_8': V, 'ie10': W, 'ie8': Vb, 'ie9': Wb, 'safari': Xb };__gwt_isKnownPropertyValue = function __gwt_isKnownPropertyValue(a, b) {
       return b in i[a];
     };jsqrscanner.__getPropMap = function () {
       var a = {};for (var b in i) {
@@ -298,13 +302,15 @@ function jsqrscanner() {
     }r(fc, P);r(fc, gc);
   }
   B();jsqrscanner.__moduleBase = C();t[S].moduleBase = jsqrscanner.__moduleBase;var H = F();if (o) {
-    var I = !!(o.location.protocol == hc || o.location.protocol == ic);o.__gwt_activeModules[S].canRedirect = I;function J() {
+    var J = function J() {
       var b = jc;try {
         o.sessionStorage.setItem(b, b);o.sessionStorage.removeItem(b);return true;
       } catch (a) {
         return false;
       }
-    }
+    };
+
+    var I = !!(o.location.protocol == hc || o.location.protocol == ic);o.__gwt_activeModules[S].canRedirect = I;
     if (I && J()) {
       var K = kc;var L = o.sessionStorage[K];if (!/^http:\/\/(localhost|127\.0\.0\.1)(:\d+)?\/.*$/.test(L)) {
         if (L && window.console && console.log) {
