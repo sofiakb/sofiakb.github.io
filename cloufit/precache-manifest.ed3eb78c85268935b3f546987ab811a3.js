@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4df75cb344278328c4c9d46fa859d36c",
+    "revision": "c78b1789a10394b88c6f67a08d3d6dbb",
     "url": "/cloufit/index.html"
   },
   {
@@ -52,7 +52,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cloufit/static/@sofiakb/vue2-pwa-access-key/js/jsqr/jsqrscanner.nocache.js"
   },
   {
-    "revision": "e03a07439ffeec649653",
+    "revision": "790cc31b6bbbe6d058b3",
     "url": "/cloufit/static/css/app.63e92260.css"
   },
   {
@@ -60,7 +60,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cloufit/static/css/app.min.css"
   },
   {
-    "revision": "669387f86e4a7648ed51",
+    "revision": "bc6f36b64c7bbbf77a2c",
     "url": "/cloufit/static/css/chunk-vendors.041ed559.css"
   },
   {
@@ -464,12 +464,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cloufit/static/img/unplugged.d46444fa.jpg"
   },
   {
-    "revision": "e03a07439ffeec649653",
-    "url": "/cloufit/static/js/app.d17adeb9.js"
+    "revision": "790cc31b6bbbe6d058b3",
+    "url": "/cloufit/static/js/app.64f72679.js"
   },
   {
-    "revision": "669387f86e4a7648ed51",
-    "url": "/cloufit/static/js/chunk-vendors.1cedefcd.js"
+    "revision": "bc6f36b64c7bbbf77a2c",
+    "url": "/cloufit/static/js/chunk-vendors.e003740c.js"
   },
   {
     "revision": "a50ab104690c1b68b71e62456e89ad02",
