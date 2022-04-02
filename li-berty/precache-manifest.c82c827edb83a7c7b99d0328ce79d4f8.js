@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "108c9fafdf1edac89d3d2a6fe8354479",
+    "revision": "2e10c6b8c07c32b7ca020a0a903ebd31",
     "url": "/li-berty/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/li-berty/robots.txt"
   },
   {
-    "revision": "a5f089ea8657af08026e",
-    "url": "/li-berty/static/css/app.ec89d167.css"
+    "revision": "2e8251fad3f1e0e320c8",
+    "url": "/li-berty/static/css/app.47b3490e.css"
   },
   {
     "revision": "d41d8cd98f00b204e9800998ecf8427e",
@@ -44,7 +44,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/li-berty/static/css/fonts.css"
   },
   {
-    "revision": "b840618aefa4aedd792b875f58d3cdc2",
+    "revision": "f94fe119da01ad822d93bcd1535767ae",
     "url": "/li-berty/static/css/main.css"
   },
   {
@@ -288,7 +288,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/li-berty/static/img/unplugged.d46444fa.jpg"
   },
   {
-    "revision": "a5f089ea8657af08026e",
+    "revision": "2e8251fad3f1e0e320c8",
     "url": "/li-berty/static/js/app.53383220.js"
   },
   {
