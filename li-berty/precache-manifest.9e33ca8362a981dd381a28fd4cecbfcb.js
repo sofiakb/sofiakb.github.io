@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4e44144ba58092582c613a42ff521683",
+    "revision": "9d39b11167a52ca30474ac684b01564b",
     "url": "/li-berty/index.html"
   },
   {
@@ -12,27 +12,39 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/li-berty/robots.txt"
   },
   {
-    "revision": "211a7999fa2faa2d2b3e",
-    "url": "/li-berty/static/css/app.47b3490e.css"
+    "revision": "dc8c9b91e335bdb55758",
+    "url": "/li-berty/static/css/app.f8e82c5d.css"
   },
   {
     "revision": "d41d8cd98f00b204e9800998ecf8427e",
     "url": "/li-berty/static/css/app.min.css"
   },
   {
-    "revision": "ffeda8d92e02b07a9851",
-    "url": "/li-berty/static/css/chunk-20c75f00.8989ecda.css"
+    "revision": "84d5b0d02affa67ff41a",
+    "url": "/li-berty/static/css/chunk-08730f4c.8989ecda.css"
   },
   {
-    "revision": "39a13f91247671dc83f0",
-    "url": "/li-berty/static/css/chunk-9a7a3f7e.8989ecda.css"
+    "revision": "f3177b400c7a7522592c",
+    "url": "/li-berty/static/css/chunk-243b9d14.65a1031d.css"
   },
   {
-    "revision": "f8c29ab039ed39345099",
-    "url": "/li-berty/static/css/chunk-f60b0500.8989ecda.css"
+    "revision": "c0130c0ea52f4f3bde37",
+    "url": "/li-berty/static/css/chunk-4b7c3728.6daedf03.css"
   },
   {
-    "revision": "e0ce93b55540e67be600",
+    "revision": "2a6f7f0f00b00a7c17e2",
+    "url": "/li-berty/static/css/chunk-710647ed.3c89e4e5.css"
+  },
+  {
+    "revision": "27f555bed7bcdf6b13d6",
+    "url": "/li-berty/static/css/chunk-b7659c7a.07ba7793.css"
+  },
+  {
+    "revision": "0cb6e495b3cb83aa2694",
+    "url": "/li-berty/static/css/chunk-d7fae560.3c89e4e5.css"
+  },
+  {
+    "revision": "4152416450e03e8a01f9",
     "url": "/li-berty/static/css/chunk-vendors.ce38b027.css"
   },
   {
@@ -44,7 +56,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/li-berty/static/css/fonts.css"
   },
   {
-    "revision": "f94fe119da01ad822d93bcd1535767ae",
+    "revision": "89b59b8d2b32fcb849d397c9f4b3722b",
     "url": "/li-berty/static/css/main.css"
   },
   {
@@ -256,12 +268,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/li-berty/static/img/arrow_right.d9ccc77c.svg"
   },
   {
+    "revision": "59ae701a1efd4fae2eccad4b8dc88e92",
+    "url": "/li-berty/static/img/beauty-img.59ae701a.jpg"
+  },
+  {
     "revision": "9bf634b4686212f68cd3117fa2086f0c",
     "url": "/li-berty/static/img/beauty.9bf634b4.jpg"
   },
   {
     "revision": "84dc7e6d06bdd6b3a27272be3dfece60",
     "url": "/li-berty/static/img/carousel.84dc7e6d.jpg"
+  },
+  {
+    "revision": "3cdd17354ad76e722672ecdf1b582356",
+    "url": "/li-berty/static/img/cleaning.3cdd1735.jpg"
+  },
+  {
+    "revision": "7745c2e4ee5593474053d8dad2008b0b",
+    "url": "/li-berty/static/img/construction.7745c2e4.jpg"
   },
   {
     "revision": "9769d0a6a42cf73df12bc63a7a994131",
@@ -280,6 +304,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/li-berty/static/img/logo.5ac4350f.png"
   },
   {
+    "revision": "653c302d86c7ea32d445450b618f8240",
+    "url": "/li-berty/static/img/restaurant-img.653c302d.png"
+  },
+  {
     "revision": "e83ed56a647b4ba5c6fa0c6c5cc78ca2",
     "url": "/li-berty/static/img/restaurant.e83ed56a.jpg"
   },
@@ -288,16 +316,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/li-berty/static/img/unplugged.d46444fa.jpg"
   },
   {
-    "revision": "211a7999fa2faa2d2b3e",
-    "url": "/li-berty/static/js/app.bc88ec05.js"
+    "revision": "dc8c9b91e335bdb55758",
+    "url": "/li-berty/static/js/app.76dbf629.js"
   },
   {
-    "revision": "100ca7869e30dd0850eb",
-    "url": "/li-berty/static/js/chunk-03b4e0d6.f1bfe49e.js"
+    "revision": "84d5b0d02affa67ff41a",
+    "url": "/li-berty/static/js/chunk-08730f4c.cef0554b.js"
   },
   {
-    "revision": "ffeda8d92e02b07a9851",
-    "url": "/li-berty/static/js/chunk-20c75f00.1a085b4e.js"
+    "revision": "3f674369f2234401be66",
+    "url": "/li-berty/static/js/chunk-16e8e161.297d32de.js"
+  },
+  {
+    "revision": "f3177b400c7a7522592c",
+    "url": "/li-berty/static/js/chunk-243b9d14.35a263fb.js"
   },
   {
     "revision": "c3b947fccd94a70a3c3e",
@@ -308,27 +340,23 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/li-berty/static/js/chunk-2d2138a9.50371a56.js"
   },
   {
-    "revision": "80920a2596f573e24354",
-    "url": "/li-berty/static/js/chunk-38f11b31.72c4d0ec.js"
+    "revision": "c0130c0ea52f4f3bde37",
+    "url": "/li-berty/static/js/chunk-4b7c3728.0138f387.js"
   },
   {
-    "revision": "1e4b8e20ee48b100c8e2",
-    "url": "/li-berty/static/js/chunk-4cd97e49.68d0e4cb.js"
+    "revision": "2a6f7f0f00b00a7c17e2",
+    "url": "/li-berty/static/js/chunk-710647ed.ca2fdae2.js"
   },
   {
-    "revision": "a95bbeb61321c1ed01cd",
-    "url": "/li-berty/static/js/chunk-6f27c912.c8bec857.js"
+    "revision": "27f555bed7bcdf6b13d6",
+    "url": "/li-berty/static/js/chunk-b7659c7a.6577bb2c.js"
   },
   {
-    "revision": "39a13f91247671dc83f0",
-    "url": "/li-berty/static/js/chunk-9a7a3f7e.21ca9fdf.js"
+    "revision": "0cb6e495b3cb83aa2694",
+    "url": "/li-berty/static/js/chunk-d7fae560.20e05778.js"
   },
   {
-    "revision": "f8c29ab039ed39345099",
-    "url": "/li-berty/static/js/chunk-f60b0500.c62b3a20.js"
-  },
-  {
-    "revision": "e0ce93b55540e67be600",
-    "url": "/li-berty/static/js/chunk-vendors.6cede5e1.js"
+    "revision": "4152416450e03e8a01f9",
+    "url": "/li-berty/static/js/chunk-vendors.ea0b7f84.js"
   }
 ]);
