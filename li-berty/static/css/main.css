@@ -10,6 +10,12 @@
   --color-4: #6C5B7B;
   --color-5: #355C7D;
 
+  --light-color-1: #5e8dc9;
+  --light-color-2: #FFFFFF;
+
+  --dark-color-1: #FFFFFF;
+  --dark-color-2: #152238;
+
   --border-radius: 6px !important;
 }
 
