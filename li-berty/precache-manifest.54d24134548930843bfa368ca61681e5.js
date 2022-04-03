@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0860592e1223880f14ecd506fd796d69",
+    "revision": "f658ef396424b3ad8b971a181ad46516",
     "url": "/li-berty/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/li-berty/robots.txt"
   },
   {
-    "revision": "14bdc7bd9a09a500587d",
+    "revision": "924a535dcbe1f2cc4ed4",
     "url": "/li-berty/static/css/app.ce46c9fd.css"
   },
   {
@@ -24,20 +24,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/li-berty/static/css/chunk-08730f4c.8989ecda.css"
   },
   {
-    "revision": "af7038f00ed7a0b33bcf",
-    "url": "/li-berty/static/css/chunk-16209e36.190ae00a.css"
+    "revision": "595b591529cba77182ec",
+    "url": "/li-berty/static/css/chunk-12aa8bb8.607526a0.css"
+  },
+  {
+    "revision": "befd1b67eb69fbfa9ffb",
+    "url": "/li-berty/static/css/chunk-1acc0422.190ae00a.css"
   },
   {
     "revision": "dfcc2fdfa35a0f616cce",
     "url": "/li-berty/static/css/chunk-221c6616.2fd5048f.css"
   },
   {
-    "revision": "f9c251213da72a819ca2",
-    "url": "/li-berty/static/css/chunk-a473a9a0.1435fe03.css"
-  },
-  {
-    "revision": "222577abdca51797d88e",
-    "url": "/li-berty/static/css/chunk-dd994fcc.607526a0.css"
+    "revision": "3a20533fbcdd4806b823",
+    "url": "/li-berty/static/css/chunk-3dbcc5f4.1435fe03.css"
   },
   {
     "revision": "922167fe9d54abf2d388",
@@ -312,20 +312,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/li-berty/static/img/unplugged.d46444fa.jpg"
   },
   {
-    "revision": "14bdc7bd9a09a500587d",
-    "url": "/li-berty/static/js/app.2ffb55c9.js"
+    "revision": "924a535dcbe1f2cc4ed4",
+    "url": "/li-berty/static/js/app.54ad42fc.js"
   },
   {
     "revision": "84d5b0d02affa67ff41a",
     "url": "/li-berty/static/js/chunk-08730f4c.cef0554b.js"
   },
   {
-    "revision": "af7038f00ed7a0b33bcf",
-    "url": "/li-berty/static/js/chunk-16209e36.12624a10.js"
+    "revision": "595b591529cba77182ec",
+    "url": "/li-berty/static/js/chunk-12aa8bb8.015ca067.js"
   },
   {
     "revision": "3f674369f2234401be66",
     "url": "/li-berty/static/js/chunk-16e8e161.297d32de.js"
+  },
+  {
+    "revision": "befd1b67eb69fbfa9ffb",
+    "url": "/li-berty/static/js/chunk-1acc0422.8abbc1fe.js"
   },
   {
     "revision": "dfcc2fdfa35a0f616cce",
@@ -344,12 +348,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/li-berty/static/js/chunk-2d2138a9.0cdaa81b.js"
   },
   {
-    "revision": "f9c251213da72a819ca2",
-    "url": "/li-berty/static/js/chunk-a473a9a0.641965a9.js"
-  },
-  {
-    "revision": "222577abdca51797d88e",
-    "url": "/li-berty/static/js/chunk-dd994fcc.856d07f1.js"
+    "revision": "3a20533fbcdd4806b823",
+    "url": "/li-berty/static/js/chunk-3dbcc5f4.75dd285b.js"
   },
   {
     "revision": "922167fe9d54abf2d388",
