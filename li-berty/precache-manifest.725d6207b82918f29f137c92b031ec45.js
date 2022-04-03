@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "02e8a6e16fc1685fde77339b2a96e4d9",
+    "revision": "0860592e1223880f14ecd506fd796d69",
     "url": "/li-berty/index.html"
   },
   {
@@ -12,7 +12,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/li-berty/robots.txt"
   },
   {
-    "revision": "696652d73e24ea8892aa",
+    "revision": "14bdc7bd9a09a500587d",
     "url": "/li-berty/static/css/app.ce46c9fd.css"
   },
   {
@@ -32,12 +32,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/li-berty/static/css/chunk-221c6616.2fd5048f.css"
   },
   {
-    "revision": "651c8b0ece164f12de72",
-    "url": "/li-berty/static/css/chunk-31dcaf32.607526a0.css"
-  },
-  {
     "revision": "f9c251213da72a819ca2",
     "url": "/li-berty/static/css/chunk-a473a9a0.1435fe03.css"
+  },
+  {
+    "revision": "222577abdca51797d88e",
+    "url": "/li-berty/static/css/chunk-dd994fcc.607526a0.css"
   },
   {
     "revision": "922167fe9d54abf2d388",
@@ -312,8 +312,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/li-berty/static/img/unplugged.d46444fa.jpg"
   },
   {
-    "revision": "696652d73e24ea8892aa",
-    "url": "/li-berty/static/js/app.75753954.js"
+    "revision": "14bdc7bd9a09a500587d",
+    "url": "/li-berty/static/js/app.2ffb55c9.js"
   },
   {
     "revision": "84d5b0d02affa67ff41a",
@@ -340,16 +340,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/li-berty/static/js/chunk-2d2086e3.cfeaa80f.js"
   },
   {
-    "revision": "46b4e238c589d74916d2",
-    "url": "/li-berty/static/js/chunk-2d2138a9.340686e3.js"
-  },
-  {
-    "revision": "651c8b0ece164f12de72",
-    "url": "/li-berty/static/js/chunk-31dcaf32.2fbcd38a.js"
+    "revision": "0281b956bdc5fbdde691",
+    "url": "/li-berty/static/js/chunk-2d2138a9.0cdaa81b.js"
   },
   {
     "revision": "f9c251213da72a819ca2",
     "url": "/li-berty/static/js/chunk-a473a9a0.641965a9.js"
+  },
+  {
+    "revision": "222577abdca51797d88e",
+    "url": "/li-berty/static/js/chunk-dd994fcc.856d07f1.js"
   },
   {
     "revision": "922167fe9d54abf2d388",

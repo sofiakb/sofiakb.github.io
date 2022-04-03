@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/li-berty/precache-manifest.efeebda0e0021258fcdd81687ff31e4a.js"
+  "/li-berty/precache-manifest.725d6207b82918f29f137c92b031ec45.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "li-berty"});
